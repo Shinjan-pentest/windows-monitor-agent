@@ -78,7 +78,7 @@ for s in c.Win32_Service():
 # 5. Simple Report
 
 with open("report.txt", "w") as f:
-    f.write("Scan completed. Now we can see the alerts directly into security_log.txt\n")
+    f.write("Scan completed. Now we can see the unknown processes directly into security_log.txt\n")
 
 
 print("\n--- Scan Finished ---\n")
